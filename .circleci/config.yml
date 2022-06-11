@@ -21,4 +21,4 @@ jobs:
           name: Push application docker image
           command: |
             docker login -u $DOCKER_HUB_USER_ID -p $DOCKER_HUB_PWD
-            dockertag dockerapp_dockerapp $DOCKER_HUB_USER_ID/dockerapp:$CIRCLE_SHA1
+            # dockertag dockerapp_dockerapp $DOCKER_HUB_USER_ID/dockerapp:$CIRCLE_SHA1
